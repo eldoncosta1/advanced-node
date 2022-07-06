@@ -8,7 +8,7 @@ import { FacebookAuthenticationService } from '@/data/services'
 import { AuthenticationError } from '@/domain/errors'
 import { FacebookAccount } from '@/domain/models'
 
-import { mocked } from 'ts-jest/utils'
+// import { mocked } from 'ts-jest/utils'
 import { mock, MockProxy } from 'jest-mock-extended'
 
 jest.mock('@/domain/models/facebook-account')
@@ -70,7 +70,7 @@ describe('FacebookAuthenticationService', () => {
     const FacebookAccountStup = jest
       .fn()
       .mockImplementation(() => ({ any: 'any' }))
-    mocked(FacebookAccount).mockImplementation(FacebookAccountStup)
+    jest.mocked(FacebookAccount).mockImplementation(FacebookAccountStup)
 
     await sut.perform({ token })
 

@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^27.0.4",
+    "@types/jest": "^28.1.4",
     "@types/module-alias": "^2.0.1",
     "@types/node": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
@@ -28,10 +28,10 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0",
     "husky": "^8.0.1",
-    "jest": "^27.0.1",
+    "jest": "^28.1.2",
     "jest-mock-extended": "^2.0.6",
     "lint-staged": "^13.0.3",
-    "ts-jest": "^27.0.1",
+    "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
   },
   "engines": {
