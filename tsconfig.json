@@ -19,6 +19,7 @@
     "strictFunctionTypes": true,
     "strictPropertyInitialization": true,
     "noImplicitAny": true,
+    "noImplicitReturns": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
   },
